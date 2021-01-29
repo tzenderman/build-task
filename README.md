@@ -24,6 +24,6 @@ AND
 
 ### File contents
 
-Since the section is used inside the template, the reference inside the template also needs to be updated (you can see this inside the `src/templates/product.template.html` file. So, we need to update that line in the new duplicated template to be:
+Since the section is used inside the template, the reference inside the template also needs to be updated (you can see this inside the `src/templates/product.template.html` file). So, we need to update that line in the new duplicated template to be:
 
 `{% section 'product-sections-template-abc-1' %}`

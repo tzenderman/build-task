@@ -13,11 +13,13 @@ So, we have two basic templates: `src/templates/product.template.html` and `src/
 In the `duplicate_config.json`, I can see that I need to create duplicate files in dist/ for "abc-1", "abc-2", and "def-3". So, let's take "abc-1" as an example. After running through the build process, I would end up with the following new files in dist/:
 
 `dist/templates/product.template.abc-1.html`
+
 `dist/templates/product.template.html`
 
 AND
 
 `dist/sections/product-sections-template-abc-1.html`
+
 `dist/sections/product-sections-template.html`
 
 ### File contents
